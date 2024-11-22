@@ -187,11 +187,6 @@ function User() {
                 ))}
             </tbody>
         </table>
-
-
-        <button onClick={() => {
-            dispatch(insert({ name: "vijay", email: "vijay@gmail.com", gendar: "MALE", file: "image.png" }))
-        }}>Insert User</button>
     </>
 }
 
